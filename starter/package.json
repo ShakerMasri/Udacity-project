@@ -1,0 +1,27 @@
+{
+    "name": "studynight",
+    "version": "1.0.0",
+    "description": "preparing for production project",
+    "scripts": {
+        "test": "mocha",
+        "gulp": "gulp",
+        "cypress": "cypress run",
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "prettier": {
+        "tabWidth": 4
+    },
+    "type": "module",
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^5.2.0",
+        "cypress": "^14.4.1",
+        "gulp": "^5.0.1",
+        "gulp-cli": "^3.1.0",
+        "gulp-shell": "^0.6.3",
+        "mocha": "^11.6.0",
+        "parcel": "^2.15.2"
+    }
+}
